@@ -5,6 +5,7 @@ target/
 *mvn*
 !**/src/main/**/target/
 !**/src/test/**/target/
+application.properties
 
 ### STS ###
 .apt_generated
@@ -162,6 +163,7 @@ hs_err_pid*
 
 ### Maven ###
 target/
+pom.xml
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -236,3 +238,6 @@ README.html
 *.iml
 .idea
 .exercism
+
+.gitattributes
+src/main/resources/application.properties
